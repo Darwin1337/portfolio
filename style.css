@@ -72,8 +72,8 @@ a:visited {
   padding: 15px 25px;
   border: none;
   font-size: 17px;
-  font-weight: 500 !important;
-  color: #fff;
+  font-weight: 700 !important;
+  color: black;
   border-radius: 7px;
   font-weight: 700;
   transition: 0.5s;
@@ -81,16 +81,16 @@ a:visited {
 }
 
 .btn {
-  background: rgb(46 30 81);
-  box-shadow: 0 0 25px rgb(46 30 81);
+  background: rgb(255 255 255);
+  box-shadow: 0 0 25px rgb(255 255 255);
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0 5px rgb(46 30 81),
-    0 0 25px rgb(46 30 81),
-    0 0 50px rgb(46 30 81),
-    0 0 100px rgb(46 30 81);
+  box-shadow: 0 0 5px rgb(255 255 255),
+    0 0 25px rgb(255 255 255),
+    0 0 50px rgb(255 255 255),
+    0 0 100px rgb(255 255 255);
 }
 
 .btn.link {
