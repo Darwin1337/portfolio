@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diogo Borges</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="noise"></div>
@@ -15,11 +16,15 @@
       <h1>Sorry, I'm still working on it.</h1>
       <p>in the meantime, check out my curriculum</p>
       <br>
-      <button class="btn" onclick="window.open('./resume.pdf', '_blank').focus()">Download CV</button>
+      <button class="btn" onclick="window.open('data:application/pdf, ' + './resume.pdf', '_blank').focus()">Download CV</button>
     </div>
     <div class="footer">
-      <button class="btn link" onclick="window.open('https://github.com/Darwin1337', '_blank').focus()"><img src="./github.svg" /></button>
-      <button class="btn link" onclick="window.open('https://linkedin.com/in/diogo-borges4', '_blank').focus()"><img src="./linkedin.svg" /></button>
+      <a href="https://github.com/Darwin1337/" target="_blank">
+        <img src="./github.svg" />
+      </a>
+      <a href="https://linkedin.com/in/diogo-borges4/" target="_blank">
+        <img src="./linkedin.svg" />
+      </a>
     </div>
   </div>
   <div id="container"></div>
